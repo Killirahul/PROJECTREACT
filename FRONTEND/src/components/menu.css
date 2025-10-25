@@ -1,0 +1,107 @@
+/* src/Card.css */
+
+/* Base card styles */
+.card {
+    width: 250px;
+    border: 1px solid #b960ab;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(247, 244, 247, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background: #b6d7da; /* Light background color */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Card content */
+.card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Gradient background */
+.card {
+    background: linear-gradient(135deg, #716a63, #cd9a81);
+    color: rgb(179, 58, 62);
+}
+
+/* Hover overlay (optional) */
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Slightly transparent overlay */
+    color: rgb(215, 11, 11);
+    opacity: 0;
+    transition: opacity 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+/* Custom font (optional) */
+.card-content {
+    font-family: 'Your Custom Font', sans-serif;
+    font-size: 16px;
+}
+
+/* Centered paragraph text */
+p {
+    text-align: center;
+    font-family: 'Your Custom Font', sans-serif;
+    color: rgb(16, 7, 7); /* Darker text color */
+    margin-top: 10px; /* Add spacing below the card content */
+}
+body {
+    /* background-color: rgb(237, 207, 232); */
+    background: linear-gradient(135deg,white);
+    font-family: Arial, sans-serif; /* Set the default font family for the entire page */
+    color: #333; /* Set the default text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.6; /* Set the line height for better readability */
+}
+/* styles.css */
+
+.noUnderline {
+    text-decoration: none;
+  }
+  
+
+  /* .wear-background {
+    background: url('your-animated-background.gif') center center fixed;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } */
+  
+
+
+
+
+
+
+
+
+
+
